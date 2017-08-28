@@ -1,0 +1,56 @@
+[
+  {
+    "model": "mahali.parent",
+    "pk": 1,
+    "fields": {
+      "name": "Fridah",
+      "location": "SRID=4326;POINT (36.96570038795472 -1.143274726227436)",
+      "mobile_number": "0726232633"
+    }
+  },
+  {
+    "model": "mahali.parent",
+    "pk": 2,
+    "fields": {
+      "name": "Me",
+      "location": "SRID=4326;POINT (36.96241736412049 -1.148091010590663)",
+      "mobile_number": "0735226051"
+    }
+  },
+  {
+    "model": "mahali.parent",
+    "pk": 3,
+    "fields": {
+      "name": "Mercy",
+      "location": "SRID=4326;POINT (36.96153759956361 -1.150826313244575)",
+      "mobile_number": "0727294443"
+    }
+  },
+  {
+    "model": "mahali.parent",
+    "pk": 4,
+    "fields": {
+      "name": "Hetch",
+      "location": "SRID=4326;POINT (36.96001946926118 -1.15493462563322)",
+      "mobile_number": "0726475822"
+    }
+  },
+  {
+    "model": "mahali.parent",
+    "pk": 5,
+    "fields": {
+      "name": "Duke",
+      "location": "SRID=4326;POINT (36.95804536342622 -1.161048813224857)",
+      "mobile_number": "0722971080"
+    }
+  },
+  {
+    "model": "mahali.parent",
+    "pk": 6,
+    "fields": {
+      "name": "Oti",
+      "location": "SRID=4326;POINT (36.95713877677918 -1.163848463133624)",
+      "mobile_number": "0700494484"
+    }
+  }
+]

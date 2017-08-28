@@ -1,0 +1,1 @@
+web: gunicorn fridah.wsgi --log-file -
