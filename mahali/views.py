@@ -26,8 +26,8 @@ def mahali(request):
             for parent in parents:
                 print parent.name
                 message = "Hello {0}. K school here. Please come pick/drop your child".format(parent.name)
-                # result = send_sms(parent.mobile_number, message)
-                # print result
+                result = send_sms(parent.mobile_number, message)
+                print result
             return HttpResponse("Messages Sent Successfully")
         else:
             return HttpResponse("No parents found within the specified distance.")

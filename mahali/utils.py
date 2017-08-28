@@ -1,11 +1,11 @@
 from africastalking.AfricasTalkingGateway import AfricasTalkingGateway, AfricasTalkingGatewayException
 
 # sandbox credentials
-username = "otenyo"
-apikey = "3d98d8b4b518429e3b7fd440395c80f3afa3c73470b145d26309fab38bf1c952"
+username = "fridahk"
+apikey = "33769fdf07dc3d6c016aca76074937540ad1203cc967f9f4862b1d201eeea139"
 
 # Create a new instance of the gateway class
-gateway = AfricasTalkingGateway(username, apikey, "sandbox")
+gateway = AfricasTalkingGateway(username, apikey)
 
 
 # function to send sms
