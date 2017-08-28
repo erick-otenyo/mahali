@@ -129,3 +129,4 @@ LEAFLET_CONFIG = {
     'DEFAULT_CENTER': (-1.09713135, 37.014170107681),
     'DEFAULT_ZOOM': 13,
 }
+GDAL_LIBRARY_PATH = '/app/.heroku/vendor/lib/libgdal.so'
