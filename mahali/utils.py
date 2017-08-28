@@ -5,6 +5,7 @@ username = "fridahk"
 apikey = "33769fdf07dc3d6c016aca76074937540ad1203cc967f9f4862b1d201eeea139"
 
 # Create a new instance of the gateway class
+#
 gateway = AfricasTalkingGateway(username, apikey)
 
 
