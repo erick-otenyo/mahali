@@ -13,15 +13,22 @@ from utils import send_sms
 
 @csrf_exempt
 def mahali(request):
+    """
+    Function to  receive decoded SMS data, query the database for parents within 500 M 
+    from the extracted x,y and send them the SMS
+    """
     if request.method == 'POST':
-        data = json.loads(request.body)
+        data = json.loads(request.body) # Obtain the postion and speed from the POST data
         position = data['position']
         speed = data['speed']
         point = Point(position)
         mahali = Position(position=point, speed=speed)
-        mahali.save()
+        mahali.save() # Save the position to db
+
+        # then do the actual spatial query using the  POSTGIS ST_Distance Function
         parents = Parent.objects.filter(location__distance_lte=(mahali.position, D(m=300)))
-        print(parents.count())
+
+        # send the actual sms if parents within the area are found
         if parents:
             for parent in parents:
                 print parent.name
